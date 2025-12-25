@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Simple Stopwatch</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="stopwatch.css" />
+</head>
+<body>
+  <div class="card" role="application" aria-label="Stopwatch">
+    <div class="time" id="display">00:00:00.00</div>
+    <div class="controls">
+      <button id="startBtn" class="start">Start</button>
+      <button id="stopBtn" class="stop" disabled>Stop</button>
+      <button id="resetBtn" class="reset" disabled>Reset</button>
+      <button id="lapBtn" class="lap" disabled>Lap</button>
+    </div>
+    <div class="lap-history" id="lapHistory"></div>
+  </div>
+
+  <script src="stopwatch.js"></script>
+</body>
+</html>
